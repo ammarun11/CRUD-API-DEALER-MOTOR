@@ -1,0 +1,24 @@
+{
+  "name": "belajarmongodb",
+  "version": "1.0.0",
+  "description": "Belajar MonggoDB coy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "database"
+  ],
+  "author": "Ammar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
